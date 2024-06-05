@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
+body {  
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     background-image: url('../imagens/fundo-base.jpg');
@@ -24,7 +25,7 @@ body {
 .personagens-slider {
     max-width: 1200px;
     margin: 20px auto;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .lista-personagens {
@@ -39,12 +40,15 @@ body {
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; 
+    overflow: hidden;
 }
 
 .cartao:hover {
     transform: scale(1.05);
 }
+
+
 
 .imagem-personagem {
     width: 100%;
