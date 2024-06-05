@@ -28,3 +28,6 @@ O Projeto X-Devs é uma aplicação que apresenta personagens fictícios relacio
 ### Professor Cafeze
 ![Professor Cafeze](src/imagens/professor-cafeze.png)
 - **Descrição:** Líder dos X-devs é um mentor para desenvolvedores iniciantes, guiando-os com sua mente excepcional e uma xícara de café sempre à mão. Ele possui habilidades telepáticas que lhe permitem transmitir conhecimento de programação diretamente para a mente dos novatos, acelerando sua aprendizagem.
+
+## Licença
+Este projeto está licenciado sob a [MIT License](LICENSE).
