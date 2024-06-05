@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto X-Devs</title>
+    <title>Projeto X-Devs </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <header class="cabecalho">
         <h1>X-Devs</h1>
     </header>
@@ -17,25 +19,60 @@
             <img src="./src/imagens/seta.png" alt="seta para voltar a imagem">
         </button>
 
-
         <ul class="lista-personagens">
-            <li class="cartao selecionado fundo-1"></li>
-            <h2>Seu clope</h2>
-            <img src="./src/imagens/seuclope.png" alt="Seu Clope">
-            <div>
-                <h3>Descriçao</h3>
-                <p>
-                    Seu Clope é um personagem fictício da série de televisão brasileira Turma da Mônica, criado por
-                    Mauricio de Sousa. Ele é um garoto de 10 anos, que é um dos melhores amigos de Cebolinha e Cascão.
-                    Seu nome é uma referência ao fato de que ele é um fumante de cachimbo, e seu cachimbo é sua marca
-                    registrada. Seu Clope é um personagem muito inteligente e astuto, e muitas vezes ajuda Cebolinha em
-                    seus planos para roubar o coelho Sansão de Mônica.
-                </p>
-            </div>
-        </ul>
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">Seu Clope</h2>
 
-        <button class="btn-seta btn-avancar" id="btn-avancar">
-            <img src="./src/imagens/seta.png" alt="seta para avancar a imagem">
+                <img class="imagem-personagem" src="src/imagens/seuclope.png" alt="Seu Clope" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Seu Clope é conhecido por sua firme convicção de que as novas linguagens de
+                        programação são apenas modismos passageiros e desnecessários, e ele se recusa a adotar qualquer
+                        uma delas, alegando que nada pode superar a robustez e a eficácia do COBOL para resolver
+                        problemas reais. Seu estilo de trabalho é metódico e preciso, e ele valoriza acima de tudo a
+                        estabilidade e a confiabilidade em seu código.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Vamplena</h2>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="src/imagens/vamplena.png" alt="Vamplena" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Apesar de seu objetivo nobre de se tornar sênior, ela luta com o dilema ético de
+                        seu poder, pois teme tornar-se dependente da expertise alheia em vez de desenvolver a sua
+                        própria. Sua jornada é marcada por um intenso desejo de autodesenvolvimento e pela busca de um
+                        equilíbrio entre aprender com os outros e cultivar seu próprio talento genuíno.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Jubiléia</h2>
+                </div>
+
+                <div class="container-imagem">
+                    <img class="imagem-personagem" src="src/imagens/jubileia.png" alt="Jubiléia" />
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Uma jovem desenvolvedora em treinamento, Jubiléia já se destaca por sua
+                        peculiaridade: uma aversão declarada a temas claros em ambientes de programação. Ela tem uma
+                        preferência intensa por temas escuros, que considera mais suaves e agradáveis para seus olhos,
+                        especialmente durante longas sessões de codificação à noite.</p>
+                </div>
+            </li>
+           
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
         </button>
     </main>
 </body>
